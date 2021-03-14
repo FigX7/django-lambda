@@ -1,7 +1,7 @@
 {
     "dev": {
         "aws_region": "us-west-1",
-        "django_settings": "backend.settings",
+        "django_settings": "backend.backend.settings",
         "profile_name": "default",
         "project_name": "django-lambda",
         "runtime": "python3.8",

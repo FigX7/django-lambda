@@ -20,6 +20,7 @@ from _customer import views as customer_views
 from _order import views as order_views
 from _product import views as product_views
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('customers/', include(customer_views.customer_router.urls)),
