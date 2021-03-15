@@ -43,9 +43,9 @@ INSTALLED_APPS = [
     'rest_framework',
 
     # app modules
-    '_customer',
-    '_product',
-    '_order'
+    'backend._customer',
+    'backend._product',
+    'backend._order'
 ]
 
 MIDDLEWARE = [
